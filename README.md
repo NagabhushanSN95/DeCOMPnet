@@ -63,7 +63,8 @@ python VeedDynamicTester01.py
 ```
 
 ## Pretrained Weights
-Pretrained weights of the flow estimation and disocclusion infilling are available [here]().
+Pretrained weights of the flow estimation and disocclusion infilling are available [here](https://drive.google.com/drive/folders/1Y0OQLBOfoOlDM-pcNzOhbYAz2dZend9l?usp=sharing). 
+Download the weights and provide the corresponding paths in the [Tester01.py](src/Tester01.py#L253-L255).
 
 If you use DeCOMPnet model in your publication, please specify the version as well. The current version is 1.0.
 
