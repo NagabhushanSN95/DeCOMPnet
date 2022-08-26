@@ -105,7 +105,7 @@ If you use this code for your research, please cite our paper
 ```
 
 ## Acknowledgements
-The code and initialization weights for optical flow estimation is borrows from [ARFlow](https://github.com/lliuz/ARFlow). However, significant changes have been made on top of the code and so the code might look different. The code for camera motion warping is borrowed from [here](https://github.com/NagabhushanSN95/Pose-Warping).
+The code and initialization weights for optical flow estimation is borrowed from [ARFlow](https://github.com/lliuz/ARFlow). However, significant changes have been made on top of the code and so the code might look different. The code for camera motion warping is borrowed from [here](https://github.com/NagabhushanSN95/Pose-Warping).
 
 
 For any queries or bugs related to either DeCOMPnet code or IISc VEED-Dynamic database, please raise an issue.
