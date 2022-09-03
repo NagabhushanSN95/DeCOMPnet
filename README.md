@@ -2,7 +2,7 @@
 Official code release for the ISMAR 2022 paper "Temporal View Synthesis of Dynamic Scenes through 3D Object Motion Estimation with Multi-Plane Images"
 
 ## Databases
-* Download the [IISc VEED-Dynamic database](). Marge all the data and place it in `/Data/Databases/VeedDynamic/all_short`. 
+* Download the [IISc VEED-Dynamic database](https://nagabhushansn95.github.io/publications/2022/DeCOMPnet.html#database-download). Merge all the data and place it in `/Data/Databases/VeedDynamic/all_short`. 
 * For MPI-Sintel database, download all the ground truth for the training set from [here](http://sintel.is.tue.mpg.de/downloads). Use the scripts in `src/utils/mpi_sintel` to extract the required data and to organize it. The following steps describe training and testing on IISc VEED-Dynamic dataset. The steps for MPI-Sintel dataset are similar and the code for each step is also provided. 
 * For other datasets, follow similar procedure.
 
@@ -96,7 +96,7 @@ SOFTWARE.
 If you use this code for your research, please cite our paper
 
 ```bibtex
-@article{somraj2020pvqa,
+@article{somraj2022DeCOMPnet,
     title = {Temporal View Synthesis of Dynamic Scenes through 3D Object Motion Estimation with Multi-Plane Images},
     author = {Somraj, Nagabhushan and Sancheti, Pranali and Soundararajan, Rajiv},
     booktitle = {Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
