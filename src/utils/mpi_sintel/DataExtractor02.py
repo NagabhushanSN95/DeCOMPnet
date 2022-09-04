@@ -1,5 +1,5 @@
 # Shree KRISHNAya Namaha
-# Extracts data from unzipped files into a format suitable for me
+# Extracts data from unzipped files into a suitable format
 # Author: Nagabhushan S N
 # Last Modified: 26/08/2022
 

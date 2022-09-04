@@ -1,7 +1,7 @@
 # Shree KRISHNAya Namaha
-# Mix of 04_VSTU/QA05/Cropped_ST_RRED03_OurDatabase_03.py and 11_VPTU/QA07/CroppedRMSE01_OursBlender.py
+# Computes ST-RRED
 # Author: Nagabhushan S N
-# Last Modified: 26/08/2022
+# Last Modified: 04/09/2022
 
 import argparse
 import datetime
@@ -84,7 +84,7 @@ class STRRED:
         """
 
         :param old_data:
-        :param database_dirpath: Should be path to Databases/OursBlender/Data
+        :param database_dirpath: Should be path to Databases/VeedDynamic/Data
         :param pred_videos_dirpath:
         :param pred_folder_name:
         :return:
@@ -196,8 +196,8 @@ def start_qa(pred_videos_dirpath: Path, database_dirpath: Path, frames_datapath:
 
 def demo1():
     pred_videos_dirpath = Path('../../../VideoPrediction/Literature/003_MCnet/Runs/Testing/Test0018')
-    database_dirpath = Path('../../../../Databases/OursBlender/Data')
-    frames_data_path = Path('../../../../Databases/OursBlender/Data/TrainTestSets/Set07/TestVideosData.csv')
+    database_dirpath = Path('../../../../Databases/VeedDynamic/Data')
+    frames_data_path = Path('../../../../Databases/VeedDynamic/Data/TrainTestSets/Set01/TestVideosData.csv')
     pred_folder_name = 'PredictedFrames'
     start_qa(pred_videos_dirpath, database_dirpath, frames_data_path, pred_folder_name)
     return

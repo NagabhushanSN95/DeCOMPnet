@@ -1,5 +1,5 @@
 # Shree KRISHNAya Namaha
-# 
+# Utility functions related to MPI
 # Author: Nagabhushan S N
 # Last Modified: 26/08/2022
 

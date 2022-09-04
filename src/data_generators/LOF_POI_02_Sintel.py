@@ -1,8 +1,8 @@
 # Shree KRISHNAya Namaha
-# Modified from LOF_POI_01_VeedDynamic.py
 # Generates mask for points of interest for local optical flow training.
 # Given frames and their masks, a pixel is point of interest (POI), if either frame diff is greater than a threshold or
 # one of the frames is unknown
+# Modified from LOF_POI_01_VeedDynamic.py
 # Author: Nagabhushan S N
 # Last Modified: 26/08/2022
 

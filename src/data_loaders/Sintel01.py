@@ -1,5 +1,5 @@
 # Shree KRISHNAYa Namaha
-# Modified from OursBlender01.py.
+# Modified from VeedDynamic01.py.
 # Author: Nagabhushan S N
 # Last Modified: 26/08/2022
 

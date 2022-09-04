@@ -1,5 +1,5 @@
 # Shree KRISHNAya Namaha
-# w_{n, n+1} = -0.5 * w_{n, n-2}
+# w_{n, n+1} = (-1/k) * w_{n, n-k}
 # Author: Nagabhushan S N
 # Last Modified: 26/08/2022
 

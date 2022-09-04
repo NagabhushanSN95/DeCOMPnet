@@ -1,7 +1,7 @@
 # Shree KRISHNAya Namaha
-# Modified from CroppedPSNR01_OursBlender.py
+# Modified from CroppedPSNR01_VeedDynamic.py
 # Author: Nagabhushan S N
-# Last Modified: 26/08/2022
+# Last Modified: 04/09/2022
 
 import argparse
 import datetime
@@ -60,7 +60,7 @@ class PSNR:
         """
 
         :param old_data:
-        :param database_dirpath: Should be path to Databases/OursBlender/Data
+        :param database_dirpath: Should be path to Databases/VeedDynamic/Data
         :param pred_videos_dirpath:
         :param pred_folder_name:
         :return:

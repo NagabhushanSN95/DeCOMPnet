@@ -1,8 +1,7 @@
 # Shree KRISHNAya Namaha
-# Modified from QA08/KnownRMSE03_OursBlender.py
-# This is to evaluate local flow prediction
+# Computes average end-point error (AEPE) for local motion prediction
 # Author: Nagabhushan S N
-# Last Modified: 26/08/2022
+# Last Modified: 04/09/2022
 
 import argparse
 import datetime
@@ -24,7 +23,7 @@ import flow_vis
 
 this_filepath = Path(__file__)
 this_filename = Path(__file__).stem
-this_metric_name = this_filename[:-7]
+this_metric_name = this_filename[:-12]
 
 
 class EndpointError:
@@ -38,13 +37,6 @@ class EndpointError:
     def compute_frame_error(gt_flow: numpy.ndarray, eval_flow: numpy.ndarray):
         error = gt_flow.astype('float') - eval_flow.astype('float')
         endpoint_error = numpy.mean(numpy.abs(error))
-        # gt_flow_image = flow_vis.flow_to_color(gt_flow)
-        # eval_flow_image = flow_vis.flow_to_color(eval_flow)
-        # pyplot.subplot(121)
-        # pyplot.imshow(gt_flow_image)
-        # pyplot.subplot(122)
-        # pyplot.imshow(eval_flow_image)
-        # pyplot.show()
         return endpoint_error
 
     def compute_avg_error(self, old_data: pandas.DataFrame, database_dirpath: Path, pred_videos_dirpath: Path,
@@ -52,7 +44,7 @@ class EndpointError:
         """
 
         :param old_data:
-        :param database_dirpath: Should be path to Databases/OursBlender/Data
+        :param database_dirpath: Should be path to Databases/VeedDynamic/Data
         :param pred_videos_dirpath:
         :param flow_folder_name:
         :return:
@@ -172,8 +164,8 @@ def start_qa(pred_videos_dirpath: Path, database_dirpath: Path, frames_datapath:
 def demo1():
     pred_videos_dirpath = Path('../../../FlowEstimation/Research/004_HoleyFlowEstimation/Runs/Testing/Test0058_pred')
     # pred_videos_dirpath = Path('../../../FlowEstimation/Research/008_MpiFlowEstimation3d/Runs/Testing/Test0013')
-    database_dirpath = Path('../../../../Databases/OursBlender/Data')
-    frames_data_path = Path('../../../../Databases/OursBlender/Data/TrainTestSets/Set07/TestVideosData.csv')
+    database_dirpath = Path('../../../../Databases/VeedDynamic/Data')
+    frames_data_path = Path('../../../../Databases/VeedDynamic/Data/TrainTestSets/Set01/TestVideosData.csv')
     pred_folder_name = 'ObjectMotionFlow'
     start_qa(pred_videos_dirpath, database_dirpath, frames_data_path, pred_folder_name)
     return

@@ -1,6 +1,5 @@
 # Shree KRISHNAya Namaha
 # Computes all specified losses
-# Extended from R13_VSTURW/VSR006/LossComputer03.py. No need to write if condition for every loss
 # Author: Nagabhushan S N
 # Last Modified: 26/08/2022
 
