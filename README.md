@@ -100,8 +100,9 @@ If you use this code for your research, please cite our paper
     title = {Temporal View Synthesis of Dynamic Scenes through 3D Object Motion Estimation with Multi-Plane Images},
     author = {Somraj, Nagabhushan and Sancheti, Pranali and Soundararajan, Rajiv},
     booktitle = {Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages={817-826},
     year = {2022},
-    doi = {}
+    doi = {10.1109/ISMAR55827.2022.00100}
 }
 ```
 
