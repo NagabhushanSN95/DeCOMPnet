@@ -1,6 +1,10 @@
 # DeCOMPnet
 Official code release for the ISMAR 2022 paper "Temporal View Synthesis of Dynamic Scenes through 3D Object Motion Estimation with Multi-Plane Images"
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-view-synthesis-of-dynamic-scenes/temporal-view-synthesis-on-iisc-veed-dynamic)](https://paperswithcode.com/sota/temporal-view-synthesis-on-iisc-veed-dynamic?p=temporal-view-synthesis-of-dynamic-scenes)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/temporal-view-synthesis-of-dynamic-scenes/temporal-view-synthesis-on-mpi-sintel)](https://paperswithcode.com/sota/temporal-view-synthesis-on-mpi-sintel?p=temporal-view-synthesis-of-dynamic-scenes)
+
 ## Databases
 * Download the [IISc VEED-Dynamic database](https://nagabhushansn95.github.io/publications/2022/DeCOMPnet.html#database-download). Merge all the data and place it in `/Data/Databases/VeedDynamic/all_short`. 
 * For MPI-Sintel database, download all the ground truth for the training set from [here](http://sintel.is.tue.mpg.de/downloads). Use the scripts in `src/utils/mpi_sintel` to extract the required data and to organize it. The following steps describe training and testing on IISc VEED-Dynamic dataset. The steps for MPI-Sintel dataset are similar and the code for each step is also provided. 
